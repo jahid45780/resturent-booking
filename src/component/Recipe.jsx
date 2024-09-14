@@ -1,5 +1,6 @@
 import { Image } from "antd";
 import { IoIosArrowForward } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const Recipe = () => {
     return (
@@ -9,9 +10,11 @@ const Recipe = () => {
     Explore <span className="text-[#8ABA51]">Yummy Recipe</span>
   </h1>
 
-  <button className="flex gap-2 items-center text-[16px] lg:text-[20px] mt-4 lg:mt-0">
+ <Link to={'/foods'} >
+ <button className="flex gap-2 items-center text-[16px] lg:text-[20px] mt-4 lg:mt-0">
     See All <IoIosArrowForward />
   </button>
+ </Link>
 </section>
 
 

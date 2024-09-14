@@ -17,7 +17,7 @@ const FoodsCart = ({cart}) => {
    <div className="flex flex-col mt-4">
      <h2 className="text-xl font-bold mb-2 truncate"> {title} </h2>
      <p className="text-gray-600 text-sm mb-2 line-clamp-2">
-       {description.slice(0,100)}
+       {description.slice(0,50)}
      </p>
      <h4 className="text-lg font-bold mb-2">$ {price} </h4>
 
