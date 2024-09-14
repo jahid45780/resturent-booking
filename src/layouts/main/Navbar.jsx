@@ -53,7 +53,7 @@ export default function Navbar() {
             </button>
             <button className="hover:text-blue-600 transition text-[24px] font-[500px] duration-300">
               {" "}
-              <Link to="/about"> Food </Link>{" "}
+              <Link to="/foods"> Food </Link>{" "}
             </button>
           </div>
 
@@ -98,7 +98,7 @@ export default function Navbar() {
                   </button>
                   <button className=" text-2xl text-black font-medium mt-3">
                     {" "}
-                    <Link> Food </Link>{" "}
+                    <Link to='/foods' > Food </Link>{" "}
                   </button>
                 </div>
               </Drawer>

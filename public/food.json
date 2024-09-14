@@ -1,0 +1,242 @@
+[
+    {
+      "id": 1,
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?resize=768,574",
+      "title": "Mozzarella Delight",
+      "price": 79.99,
+      "description": "A classic Italian pizza made with fresh mozzarella cheese, homemade tomato sauce, and fragrant basil leaves.",
+      "category": "Pizza"
+    },
+    {
+      "id": 2,
+      "image": "https://www.spectator.co.uk/wp-content/uploads/2023/09/iStock-1493915795.jpg?w=1080",
+      "title": "Spicy Tacos",
+      "price": 399.99,
+      "description": "A classic Italian pizza made with fresh mozzarella cheese, homemade tomato sauce, and fragrant basil leaves.",
+      "category": "Rice"
+    },
+    {
+      "id": 3,
+      "image": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2022/09/frozen-dinner-meal-meatloaf-mashed-potatoes-vegetables-1296x728-header.jpg?w=1155&h=1528",
+      "title": "Fresh Sushi Rolls",
+      "price": 19.99,
+      "description": "A classic Italian pizza made with fresh mozzarella cheese, homemade tomato sauce, and fragrant basil leaves.",
+      "category": "Sushi"
+    },
+    {
+      "id": 4,
+      "image": "https://cdn.britannica.com/81/240881-138-11AE4B2E/Can-I-Still-Eat-This-expiration-dates.jpg?w=800&h=450&c=crop",
+      "title": "Grilled Kabab Feast",
+      "price": 999.99,
+      "description": "A classic Italian pizza made with fresh mozzarella cheese, homemade tomato sauce, and fragrant basil leaves.",
+      "category": "Kabab"
+    },
+    {
+      "id": 5,
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/140430115517-06-comfort-foods.jpg?q=w_1110,c_fill",
+      "title": "Crispy Fry Delight",
+      "price": 1099.99,
+      "description": "A classic Italian pizza made with fresh mozzarella cheese, homemade tomato sauce, and fragrant basil leaves.",
+      "category": "Fry"
+    },
+    {
+      "id": 6,
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2022/08/Corndogs-7832ef6.jpg?quality=90&resize=556,505",
+      "title": "American Chicken Feast",
+      "price": 899.99,
+      "description": "A classic Italian pizza made with fresh mozzarella cheese, homemade tomato sauce, and fragrant basil leaves.",
+      "category": "Chicken"
+    },
+    {
+      "id": 7,
+      "image": "https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg",
+      "title": "Barbecue Chicken Wings",
+      "price": 1199.99,
+      "description": "A classic Italian pizza made with fresh mozzarella cheese, homemade tomato sauce, and fragrant basil leaves.",
+      "category": "Chicken"
+    },
+    {
+      "id": 8,
+      "image": "https://cdn-ilaijbf.nitrocdn.com/YzeYmKigJpOUmEDUPOsqjcZLGXECGjCN/assets/images/optimized/rev-fee2c83/www.foodfood.com/wp-content/uploads/2024/05/PunjabiSamosa.jpg",
+      "title": "Samosa Rice Bowl",
+      "price": 599.99,
+      "description": "A classic Italian pizza made with fresh mozzarella cheese, homemade tomato sauce, and fragrant basil leaves.",
+      "category": "Rice"
+    },
+    {
+      "id": 9,
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/160929101749-essential-spanish-dish-paella-phaidon.jpg?q=w_1900,h_1069,x_0,y_0,c_fill",
+      "title": "Spanish Kabab Platter",
+      "price": 999.99,
+      "description": "A classic Italian pizza made with fresh mozzarella cheese, homemade tomato sauce, and fragrant basil leaves.",
+      "category": "Kabab"
+    },
+    {
+      "id": 10,
+      "image": "https://images.nationalgeographic.org/image/upload/t_edhub_resource_related_resources/v1638890193/EducationHub/photos/mithai.jpg",
+      "title": "Cheesy Pizza Delight",
+      "price": 999.99,
+      "description": "A classic Italian pizza made with fresh mozzarella cheese, homemade tomato sauce, and fragrant basil leaves.",
+      "category": "Pizza"
+    },
+    {
+        "id": 11,
+        "image": "https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246_1280.jpg",
+        "title": "Classic Beef Burger",
+        "price": 699.99,
+        "description": "A juicy beef patty with fresh lettuce, tomatoes, and cheddar cheese, served on a sesame seed bun.",
+        "category": "Burger"
+      },
+      {
+        "id": 12,
+        "image": "https://cdn.pixabay.com/photo/2016/11/18/16/08/sandwich-1831566_1280.jpg",
+        "title": "Grilled Chicken Sandwich",
+        "price": 499.99,
+        "description": "Grilled chicken breast with avocado, lettuce, and mayo in a toasted sandwich.",
+        "category": "Chicken"
+      },
+      {
+        "id": 13,
+        "image": "https://cdn.pixabay.com/photo/2016/03/05/19/02/french-fries-1238243_1280.jpg",
+        "title": "Crispy French Fries",
+        "price": 199.99,
+        "description": "Golden, crispy French fries served with a side of ketchup.",
+        "category": "Fry"
+      },
+      {
+        "id": 14,
+        "image": "https://cdn.pixabay.com/photo/2016/11/29/12/54/rice-1866351_1280.jpg",
+        "title": "Steamed Jasmine Rice",
+        "price": 99.99,
+        "description": "Light and fluffy jasmine rice, perfectly cooked for any meal.",
+        "category": "Rice"
+      },
+      {
+        "id": 15,
+        "image": "https://cdn.pixabay.com/photo/2017/05/07/08/56/indian-food-2291354_1280.jpg",
+        "title": "Spicy Chicken Curry",
+        "price": 1299.99,
+        "description": "A flavorful chicken curry cooked with rich spices, served with naan or rice.",
+        "category": "Chicken"
+      },
+      {
+        "id": 16,
+        "image": "https://cdn.pixabay.com/photo/2017/06/02/18/24/pizza-2365770_1280.jpg",
+        "title": "Pepperoni Pizza",
+        "price": 899.99,
+        "description": "A classic pizza topped with pepperoni, mozzarella cheese, and homemade tomato sauce.",
+        "category": "Pizza"
+      },
+      {
+        "id": 17,
+        "image": "https://cdn.pixabay.com/photo/2016/03/05/19/02/tacos-1238271_1280.jpg",
+        "title": "Loaded Beef Tacos",
+        "price": 499.99,
+        "description": "Crispy tacos filled with seasoned ground beef, topped with cheese, lettuce, and salsa.",
+        "category": "Tacos"
+      },
+      {
+        "id": 18,
+        "image": "https://cdn.pixabay.com/photo/2017/05/07/08/56/indian-food-2291356_1280.jpg",
+        "title": "Lamb Kabab Skewers",
+        "price": 1499.99,
+        "description": "Succulent lamb kebabs grilled to perfection, served with mint chutney.",
+        "category": "Kabab"
+      },
+      {
+        "id": 19,
+        "image": "https://cdn.pixabay.com/photo/2017/07/16/10/43/chicken-wings-2508961_1280.jpg",
+        "title": "Buffalo Chicken Wings",
+        "price": 999.99,
+        "description": "Crispy chicken wings tossed in a spicy buffalo sauce, served with blue cheese dip.",
+        "category": "Chicken"
+      },
+      {
+        "id": 20,
+        "image": "https://cdn.pixabay.com/photo/2015/03/26/09/41/pasta-690748_1280.jpg",
+        "title": "Creamy Alfredo Pasta",
+        "price": 799.99,
+        "description": "Fettuccine pasta in a creamy Alfredo sauce with garlic, parmesan, and fresh herbs.",
+        "category": "Pasta"
+      },
+      {
+        "id": 21,
+        "image": "https://cdn.pixabay.com/photo/2016/07/20/17/58/sushi-1536792_1280.jpg",
+        "title": "Salmon Sushi Rolls",
+        "price": 599.99,
+        "description": "Fresh salmon rolled in sushi rice and seaweed, served with soy sauce and wasabi.",
+        "category": "Sushi"
+      },
+      {
+        "id": 22,
+        "image": "https://cdn.pixabay.com/photo/2016/03/05/19/02/indian-food-1238241_1280.jpg",
+        "title": "Biryani Rice",
+        "price": 699.99,
+        "description": "Fragrant basmati rice cooked with spices and tender pieces of chicken or lamb.",
+        "category": "Rice"
+      },
+      {
+        "id": 23,
+        "image": "https://cdn.pixabay.com/photo/2017/12/09/08/18/noodle-3002140_1280.jpg",
+        "title": "Spicy Noodles",
+        "price": 499.99,
+        "description": "Stir-fried noodles with vegetables and a spicy sauce.",
+        "category": "Noodles"
+      },
+      {
+        "id": 24,
+        "image": "https://cdn.pixabay.com/photo/2015/04/08/13/13/salad-712063_1280.jpg",
+        "title": "Greek Salad",
+        "price": 299.99,
+        "description": "A fresh salad made with cucumbers, tomatoes, olives, and feta cheese.",
+        "category": "Salad"
+      },
+      {
+        "id": 25,
+        "image": "https://cdn.pixabay.com/photo/2017/05/08/10/28/croissant-2294981_1280.jpg",
+        "title": "Butter Croissant",
+        "price": 199.99,
+        "description": "Flaky, buttery croissant perfect for breakfast or a snack.",
+        "category": "Breakfast"
+      },
+      {
+        "id": 26,
+        "image": "https://cdn.pixabay.com/photo/2016/03/05/19/03/indian-food-1238249_1280.jpg",
+        "title": "Paneer Tikka",
+        "price": 899.99,
+        "description": "Grilled paneer cubes marinated in spices and yogurt, served with mint chutney.",
+        "category": "Kabab"
+      },
+      {
+        "id": 27,
+        "image": "https://cdn.pixabay.com/photo/2015/11/27/12/33/breakfast-1067023_1280.jpg",
+        "title": "Sunny Side Eggs",
+        "price": 199.99,
+        "description": "Two perfectly cooked sunny side up eggs, served with toast.",
+        "category": "Breakfast"
+      },
+      {
+        "id": 28,
+        "image": "https://cdn.pixabay.com/photo/2015/07/17/13/44/burger-849678_1280.jpg",
+        "title": "Cheese Burst Burger",
+        "price": 799.99,
+        "description": "A cheeseburger stuffed with extra cheese, lettuce, and pickles, served with fries.",
+        "category": "Burger"
+      },
+      {
+        "id": 29,
+        "image": "https://cdn.pixabay.com/photo/2017/05/07/08/56/indian-food-2291351_1280.jpg",
+        "title": "Vegetable Biryani",
+        "price": 599.99,
+        "description": "Aromatic basmati rice with fresh vegetables and spices.",
+        "category": "Rice"
+      },
+      {
+        "id": 30,
+        "image": "https://cdn.pixabay.com/photo/2015/04/08/13/13/salmon-712062_1280.jpg",
+        "title": "Grilled Salmon",
+        "price": 1499.99,
+        "description": "Fresh salmon fillet grilled to perfection, served with a side of vegetables.",
+        "category": "Entree"
+      }
+]
