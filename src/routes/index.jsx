@@ -42,7 +42,8 @@ const router = createBrowserRouter([
             },
             {
                 path: '/foods/:id',
-                element: <Food />
+                element: <Food />,
+                loader:()=>fetch('/food.json')
             },
             {
                 path: 'terms-and-conditions',

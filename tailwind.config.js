@@ -18,6 +18,11 @@ export default {
       screens: {
         "2xl": "1500px"
       }
+    },
+    fontFamily:{
+      custom:["Sofadi One", "system-ui"],
+      fontCustom:["Jacques Francois Shadow", "serif"],
+      fontTitle:["Courgette", "cursive"]
     }
   },
   plugins: [],
