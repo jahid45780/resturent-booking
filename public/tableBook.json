@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFFLOLDEDDbc0hqxSdW1MMLM2uPfC411gLhw&s",
+      "title": "TableTrove",
+      "price": 79.99,
+      "description": "A classic Italian pizza made with fresh mozzarella cheese, homemade tomato sauce, and fragrant basil leaves.",
+      "category": "Pizza",
+      "rating": 0.4
+    },
+    {
+      "id": 2,
+      "image": "https://cdn.prod.website-files.com/5e5e201853a5527aa1e70964/64ccc4c118a184ec2b69bccb_crs-hotel-lobby-02.jpg",
+      "title": "DineReserve",
+      "price": 399.99,
+      "description": "Centara Reserve Samui — Koh Samui — Siam Seaplane homemade tomato sauce, and fragrant basil leaves.",
+      "category": "Rice",
+      "rating": 90.1
+    },
+    {
+      "id": 3,
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/142308116.jpg?k=f4eda9efe97c67e6e35471f3c5900fee5443adb45c3053f3b1613b3af3b743a8&o=&hp=1",
+      "title": "SeatSavvy",
+      "price": 19.99,
+      "description": "A classic Italian pizza made with fresh mozzarella cheese, homemade tomato sauce, and fragrant basil leaves.",
+      "category": "Sushi",
+      "rating": 99.1
+    },
+    {
+      "id": 4,
+      "image": "https://www.afoodieworld.com/booking/wp-content/uploads/sites/6/2024/08/Canton-Bistro-Book-exclusive-experiences-with-Foodie-1024x683.jpg",
+      "title": "BistroBook",
+      "price": 999.99,
+      "description": "A classic Italian pizza made with fresh mozzarella cheese, homemade tomato sauce, and fragrant basil leaves.",
+      "category": "Kabab",
+      "rating": 1.8
+    },
+    {
+      "id": 5,
+      "image": "https://media.istockphoto.com/id/1063025552/photo/flat-lay-of-friends-feasting-at-thanksgiving-day-table-with-turkey.jpg?s=612x612&w=0&k=20&c=_nsY7Yc5AUjPJaRK10B6drNP4QeASvy2YBf4Ds6qAsY=",
+      "title": "FeastFinde",
+      "price": 1099.99,
+      "description": "A classic Italian pizza made with fresh mozzarella cheese, homemade tomato sauce, and fragrant basil leaves.",
+      "category": "Fry",
+      "rating": 1.0
+    },
+    {
+      "id": 6,
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/576441733.jpg?k=a9856fd654e2ab340eae54b66897fc8de168cc4d3b3db0305c1596a038a34d18&o=&hp=1",
+      "title": "ReserveNest",
+      "price": 899.99,
+      "description": "A classic Italian pizza made with fresh mozzarella cheese, homemade tomato sauce, and fragrant basil leaves.",
+      "category": "ReserveNest",
+      "rating": 4.2
+    },
+    {
+      "id": 7,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/98/44/4d/some-of-our-free-to-play.jpg?w=1200&h=-1&s=1",
+      "title": "TableTap",
+      "price": 1199.99,
+      "description": "A classic Italian pizza made with fresh mozzarella cheese, homemade tomato sauce, and fragrant basil leaves.",
+      "category": "Chicken",
+      "rating": 9.9
+    },
+    {
+      "id": 8,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlyEuIshyWi3AQq34PpZCwyK2DMfNrw2f1kQ&s",
+      "title": "DineDock",
+      "price": 599.99,
+      "description": "Dock & Dine – Dock House Restaurant mozzarella cheese, homemade tomato sauce, and fragrant basil leaves.",
+      "category": "DineDock",
+      "rating": 33.1
+    }
+]

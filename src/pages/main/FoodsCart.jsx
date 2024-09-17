@@ -7,7 +7,7 @@ const FoodsCart = ({cart}) => {
 
     return (
       <div>
-         <div className="flex flex-col shadow-lg rounded-lg p-4 max-w-xs mx-auto md:max-w-sm ">
+         <div className="flex flex-col shadow-lg rounded-lg p-4 max-w-xs mx-auto md:max-w-sm border-r-2 border-t-2 border-gray-400 ">
        
          <Link to={`/foods/${id}`} >
    <div className="w-full h-64 rounded-lg overflow-hidden flex justify-center items-center">

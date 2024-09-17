@@ -5,7 +5,6 @@ import Foods from "../pages/main/Foods";
 import Home from "../pages/main/Home";
 import TermsAndConditions from "../pages/main/TermsAndConditions";
 import NotFound from "../pages/NotFound";
-import About from "../pages/main/About";
 import Dashboard from "../layouts/dashboard/Dashboard";
 import DashboardHome from "../pages/dashboard/DashboardHome";
 import AddMenu from "../pages/dashboard/AddMenu";
@@ -17,6 +16,7 @@ import OtpVerify from "../pages/auth/OtpVerify";
 import ResetPassword from "../pages/auth/ResetPassword";
 import Auth from "../layouts/auth/Auth";
 import Login from "../pages/auth/Login";
+import BookTable from "../pages/main/BookTable";
 
 
 const router = createBrowserRouter([
@@ -37,8 +37,8 @@ const router = createBrowserRouter([
                 element: <Foods />
             },
             {
-                path: '/about',
-                element: <About />
+                path: '/bookTable',
+                element: <BookTable/>
             },
             {
                 path: '/foods/:id',

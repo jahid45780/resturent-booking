@@ -10,7 +10,8 @@ import { BiUserCircle } from "react-icons/bi";
 import { MdOutlineFavorite } from "react-icons/md";
 import { CiLogout } from "react-icons/ci";
 import toast from "react-hot-toast";
-import { PiUserCircleCheckDuotone } from "react-icons/pi";
+import { GrDashboard } from "react-icons/gr";
+
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -43,15 +44,15 @@ export default function Navbar() {
 
           {/* Navbar Links (Desktop) */}
           <div className="hidden md:flex space-x-8 items-center">
-            <button className="hover:text-blue-600 transition text-[24px] font-[500px] duration-300">
+            <button className="hover:text-blue-600 transition text-[20px] font-[500px] duration-300">
               {" "}
               <Link to="/">Home</Link>{" "}
             </button>
-            <button className="hover:text-blue-600 transition text-[24px] font-[500px] duration-300">
+            <button className="hover:text-blue-600 transition text-[20px] font-[500px] duration-300">
               {" "}
-              <Link to="/about">Book A Table</Link>{" "}
+              <Link to="/booktable">Book A Table</Link>{" "}
             </button>
-            <button className="hover:text-blue-600 transition text-[24px] font-[500px] duration-300">
+            <button className="hover:text-blue-600 transition text-[20px] font-[500px] duration-300">
               {" "}
               <Link to="/foods"> Food </Link>{" "}
             </button>
@@ -70,7 +71,7 @@ export default function Navbar() {
                 user ? (
                   <ProfileDrawer/>
                 ) : 
-                <Link to='/auth/login' className=" flex justify-center items-center" > <PiUserCircleCheckDuotone className=" text-5xl" /> </Link>
+                <Link to='/auth/login' className=" flex justify-center items-center" > <button className="bg-primary p-2 rounded-lg border-b-4 text-[#F8FAFC] border-2 border-[#334A55]" > Login </button> </Link>
               }
      
             
@@ -90,11 +91,11 @@ export default function Navbar() {
                 <div className=" flex flex-col">
                   <button className=" text-2xl text-black font-medium">
                     {" "}
-                    <Link> Home </Link>{" "}
+                    <Link to='/' > Home </Link>{" "}
                   </button>
                   <button className=" text-2xl text-black font-medium mt-3">
                     {" "}
-                    <Link> Book A Table </Link>{" "}
+                    <Link to='/booktable' > Book A Table </Link>{" "}
                   </button>
                   <button className=" text-2xl text-black font-medium mt-3">
                     {" "}
@@ -179,6 +180,11 @@ const ProfileDrawer = () => {
                   <button className=" flex items-center gap-2 mt-4 text-[#F8FAFC] text-[25px]">
                   <MdOutlineFavorite />
                     <Link> Favorite </Link>
+                  </button>
+
+                  <button className=" flex items-center gap-2 mt-4 text-[#F8FAFC] text-[25px]">
+                  <GrDashboard/>
+                    <Link to={'/dashboard'} > Dashboard </Link>
                   </button>
 
 
