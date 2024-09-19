@@ -5,7 +5,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 export default function Footer() {
   return (
-    <div className=" bg-[#232323]">
+    <div className=" bg-[#232323] mt-16">
       <footer>
         <div className=" px-6 mx-auto space-y-6 divide-y dark:divide-gray-600 md:space-y-12 divide-opacity-50">
           <div className="grid lg:grid-cols-2 grid-cols-1 justify-center pt-6 lg:justify-between">

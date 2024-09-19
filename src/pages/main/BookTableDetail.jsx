@@ -1,10 +1,12 @@
-import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
+// import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
+import GoogleMapReact from 'google-map-react';
+
 import { useState } from "react";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { LuUsers2 } from "react-icons/lu";
 import { useLoaderData, useParams } from "react-router-dom";
 import photo from '../../assets/hardy.png'
-
+const AnyReactComponent = () => <div></div>;
 
 const BookTableDetail = () => {
 
@@ -16,7 +18,7 @@ const BookTableDetail = () => {
   
     const menuData = menuSingleData.find((menuData) => menuData.id === idInd);
   
-    const { image, title, price, rating, description } = menuData;
+    const { image, title,  rating, description } = menuData;
 
     const images = [
        image,
@@ -29,9 +31,17 @@ const BookTableDetail = () => {
       height: '300px'
     };
   
-    const center = {
+    // const center = {
+    //     lat: 23.8041,
+    //     lng: 90.4152
+    // };
+
+    const defaultProps = {
+      center: {
         lat: 23.8041,
         lng: 90.4152
+      },
+      zoom: 11
     };
   
     const handlePrev = () => {
@@ -135,7 +145,7 @@ const BookTableDetail = () => {
 
         {/* Google Map */}
         <div className="h-64 mb-4">
-          <LoadScript>
+          {/* <LoadScript>
             <GoogleMap
               mapContainerStyle={containerStyle}
               center={center}
@@ -143,7 +153,21 @@ const BookTableDetail = () => {
             >
               <Marker position={center} />
             </GoogleMap>
-          </LoadScript>
+          </LoadScript> */}
+
+<GoogleMapReact
+     
+        defaultCenter={defaultProps.center}
+        defaultZoom={defaultProps.zoom}
+        mapContainerStyle={containerStyle}
+      >
+        <AnyReactComponent 
+          lat="23.8041"
+          lng="90.4152"
+          text="My Marker"
+        />
+      </GoogleMapReact>
+
         </div>
 
         {/* Opening Hours */}
@@ -169,12 +193,12 @@ const BookTableDetail = () => {
 
 {/* part 2 */}
 
-<div className="max-w-6xl mx-auto p-6 bg-white shadow-md rounded-lg">
+<div className="max-w-6xl mx-auto p-10  bg-white shadow-md rounded-lg">
       {/* Header Section */}
       <div className="mb-6">
         <h2 className="text-2xl font-semibold text-gray-800">Review</h2>
         <div className="flex items-center text-gray-600 mt-2">
-          <span className="text-3xl font-bold text-gray-800">4.8</span>
+          <span className="text-3xl font-bold text-gray-800"> {rating} </span>
           <svg className="w-6 h-6 text-blue-500 mx-2" fill="currentColor" viewBox="0 0 20 20">
             <path d="M9.049 2.927C9.435 2.064 10.565 2.064 10.951 2.927L12.317 6.03C12.508 6.48 12.948 6.763 13.432 6.763H16.719C17.67 6.763 18.074 7.944 17.37 8.472L14.476 10.708C14.096 11.008 13.93 11.526 14.09 12.014L15.465 15.09C15.829 16.084 14.814 16.964 13.945 16.39L10.999 14.463C10.577 14.2 10.023 14.2 9.601 14.463L6.655 16.39C5.786 16.964 4.771 16.084 5.135 15.09L6.51 12.014C6.67 11.526 6.504 11.008 6.124 10.708L3.23 8.472C2.526 7.944 2.93 6.763 3.881 6.763H7.168C7.652 6.763 8.092 6.48 8.283 6.03L9.649 2.927H9.049Z" />
           </svg>
