@@ -17,6 +17,7 @@ import ResetPassword from "../pages/auth/ResetPassword";
 import Auth from "../layouts/auth/Auth";
 import Login from "../pages/auth/Login";
 import BookTable from "../pages/main/BookTable";
+import BookTableDetail from "../pages/main/BookTableDetail";
 
 
 const router = createBrowserRouter([
@@ -39,6 +40,12 @@ const router = createBrowserRouter([
             {
                 path: '/bookTable',
                 element: <BookTable/>
+            },
+            {
+                path: '/bookTable/:id',
+                element: <BookTableDetail />,
+                loader:()=>fetch('/tableBook.json')
+               
             },
             {
                 path: '/foods/:id',
