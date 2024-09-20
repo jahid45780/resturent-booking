@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 /* eslint-disable react/prop-types */
-const BookTableCart = ({tableBook}) => {
+const BookTableCart = ({tableBook, bookingRoom}) => {
 
     
 
@@ -26,7 +26,9 @@ const BookTableCart = ({tableBook}) => {
    </p>
    <h4 className="text-lg font-custom mb-2">$ {price} </h4>
 
-   <button className="bg-secondary text-white py-2 px-4 rounded-lg mt-2 hover:bg-green-600 transition-colors">
+   <button 
+     onClick={ ()=> bookingRoom(tableBook)}
+   className="bg-secondary text-white py-2 px-4 rounded-lg mt-2 hover:bg-green-600 transition-colors">
        Booking
    </button>
  </div>
