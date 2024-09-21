@@ -18,6 +18,7 @@ import Auth from "../layouts/auth/Auth";
 import Login from "../pages/auth/Login";
 import BookTable from "../pages/main/BookTable";
 import BookTableDetail from "../pages/main/BookTableDetail";
+import Restaurant from "../pages/dashboard/Restaunt";
 
 
 const router = createBrowserRouter([
@@ -73,6 +74,10 @@ const router = createBrowserRouter([
             {
                 path: "earning",
                 element: <Earning />
+            },
+            {
+                path: "restaurant",
+                element: <Restaurant/>
             },
             {
                 path: "order-details",

@@ -71,12 +71,12 @@ const Sidebar = () => {
          </div>
 
          <div className='flex w-full items-center px-4 py-2 mt-5 text-white text-2xl shadow-lg'  >
-          <NavLink className='flex  items-center justify-center space-l-3 gap-2'  > <FaCircleDollarToSlot /> Earnings </NavLink> 
+          <NavLink className='flex  items-center justify-center space-l-3 gap-2'  to='/dashboard/earning' > <FaCircleDollarToSlot /> Earnings </NavLink> 
          </div>
 
 
          <div className='flex w-full items-center px-4 py-2 mt-5 text-white text-2xl shadow-lg'  >
-          <NavLink className='flex  items-center justify-center space-l-3 gap-2' > <IoRestaurantOutline/>  Restaurant </NavLink> 
+          <NavLink className='flex  items-center justify-center space-l-3 gap-2' to='/dashboard/restaurant' > <IoRestaurantOutline/>  Restaurant </NavLink> 
          </div>
 
 
