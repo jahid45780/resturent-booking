@@ -2,13 +2,15 @@ import { useState } from 'react'
 // Components
 
 import { AiOutlineBars } from 'react-icons/ai'
-import { Link, NavLink } from 'react-router-dom'
+import { Link, NavLink, useNavigate } from 'react-router-dom'
 import logo from '../../assets/logoDasbord.png'
 import { RiDashboardHorizontalLine, RiMenuAddFill } from 'react-icons/ri';
 import { FaCircleDollarToSlot } from 'react-icons/fa6';
 import { IoRestaurantOutline } from 'react-icons/io5';
 import { MdOutlineBorderColor } from 'react-icons/md';
 import { CiLogout } from 'react-icons/ci';
+import toast from 'react-hot-toast';
+import useAuth from '../../component/hooks/UseAuth';
 
 
 
@@ -22,7 +24,8 @@ const Sidebar = () => {
 
 //   const [toggle, setToggle] = useState(false)
   const [isActive, setActive] = useState(false)
-
+  const {  logOut } = useAuth();
+  const navigate = useNavigate()
 
 
 
@@ -31,6 +34,15 @@ const Sidebar = () => {
   const handleToggle = () => {
     setActive(!isActive)
   }
+
+  const handleLogOut = ()=>{
+    logOut()
+    .then(()=>{})
+    navigate('/')
+    toast.success(' LogOut Successfully ')
+    .error(error =>{error})
+}
+
   return (
     <>
 
@@ -104,7 +116,9 @@ const Sidebar = () => {
           <hr />
 
 
-         <button className='flex w-full items-center px-4 py-2 mt-5 text-white text-2xl shadow-lg'>
+         <button
+            onClick={handleLogOut}
+         className='flex w-full items-center px-4 py-2 mt-5 text-white text-2xl shadow-lg'>
          <CiLogout />
               
             <span className='mx-4 font-medium'> Log Out </span>
