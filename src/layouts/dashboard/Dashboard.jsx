@@ -12,9 +12,11 @@ const Dashboard = () => {
 
             <div className=" relative min-h-max md:flex" >
 {/* slider side */}  <Sidebar/>
-<div className=" flex-1 md:ml-64" >
+<div className="flex-1 items-center justify-between" >
+ 
+ 
   {/* header start */}
-  <div className=" bg-slate-200 " >
+  <div className=" bg-secondary" >
     <section className=" flex items-center justify-around space-y-5">
       <div>
         <h1 className=" flex items-center text-4xl gap-2" > <MdOutlineDashboardCustomize /> Dashboard </h1>
@@ -32,7 +34,7 @@ const Dashboard = () => {
       {/* header end */}
   </div>
 
-    <div className=" p-5" >  {/* out let from dainamic contact */}  <Outlet></Outlet> </div>
+    <div className=" lg:ml-72 lg:m-20" >  {/* out let from dainamic contact */}  <Outlet></Outlet> </div>
 </div>
 </div>
 

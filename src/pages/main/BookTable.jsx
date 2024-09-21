@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import BookTableCart from "./BookTableCart";
 import Loader from "../../component/loader/Loader";
 import toast from "react-hot-toast";
-import { addLS, getStoreCart } from "../../component/api/LokalStore";
+// import { addLS, getStoreCart } from "../../component/api/LokalStore";
 
 const BookTable = () => {
     const [bookings, setBooking]= useState([])
@@ -21,35 +21,35 @@ const BookTable = () => {
 
     // load cart local storage
 
-    useEffect(()=>{
+    // useEffect(()=>{
       
 
-         if(bookings.length){
-            const storeCart = getStoreCart()
-            const saveRoom = []       
+    //      if(bookings.length){
+    //         const storeCart = getStoreCart()
+    //         const saveRoom = []       
         
-            for( const id of storeCart ){
-                console.log(id);
+    //         for( const id of storeCart ){
+    //             console.log(id);
 
-                const tableRoom = bookings.find(room => room.id === id)
-                if(tableRoom){
-                     saveRoom.push(tableRoom)
-                }
-            }
+    //             const tableRoom = bookings.find(room => room.id === id)
+    //             if(tableRoom){
+    //                  saveRoom.push(tableRoom)
+    //             }
+    //         }
+    
+    //         setCartBooking(saveRoom)
 
-            setCartBooking(saveRoom)
+    //      }
 
-         }
-
-    },[bookings])
+    // },[bookings])
 
     // booking room
     const bookingRoom = room =>{
 
         const cartBooked = [...cartBooking, room]
         setCartBooking(cartBooked)
-         addLS(room.id)
-        console.log("booked");
+        //  addLS(room.id)
+        // console.log("booked");
         toast.success("booked")
     }
 
@@ -62,7 +62,7 @@ const BookTable = () => {
           <h1 className="text-5xl font-bold text-center   mt-4 max-w-6xl mx-auto">
              The Book The Table  <span className="text-[#8ABA51] mx-3">   OF Your Choice </span>
 
-             <h1> Booked: {cartBooking.length} </h1>
+           
            
           </h1>
 
