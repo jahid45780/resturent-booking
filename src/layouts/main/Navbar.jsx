@@ -184,7 +184,7 @@ const ProfileDrawer = () => {
 
                   <button className=" flex items-center gap-2 mt-4 text-[#F8FAFC] text-[25px]">
                   <GrDashboard/>
-                    <Link to={'/dashboard'} > Dashboard </Link>
+                    <Link to={'/dashboard/dashboardHome'} > Dashboard </Link>
                   </button>
 
 
